@@ -1,0 +1,102 @@
+body{
+    margin: 0%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 67.1%;
+    margin: auto;
+}
+.elemento-header{
+   margin: auto;
+}
+
+.capa{
+    background-color: #FBDFDB;
+    border-radius: 15px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    flex: space;
+    width: 67.1%;
+    height: 31.7%;
+    margin: auto;
+}
+
+
+#texto-capa{
+    text-align: justify;
+    width: 33%;
+    height: 40%;
+    margin: 10.6% 17.1% 10.6% 4.3%;
+}
+
+#texto-capa > div{
+    width: 70%;
+}
+
+#img-capa{
+    margin: auto;
+}
+.acessadas{
+    width: 67.1%;
+    height: 31.7%;
+    margin: auto;
+}
+.acessadas > section{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 40%;
+}
+
+.receita{
+    width: 30%;
+    margin-left: 0px;
+    margin-right: 5%;
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
+
+.receita > img{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.nome-receita{
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #111111;
+}
+
+.cima-baixo{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 0%;
+}
+
+.autor{
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #777777;
+}
+
+footer{
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: center;    
+    align-self: end;
+    height: 40px;
+}
+footer >p{
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    align-self: center;
+    margin-top: 12px;
+    margin-bottom: 0%;
+    padding-top: 12px;
+}
