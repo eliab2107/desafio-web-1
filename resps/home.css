@@ -4,12 +4,27 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    text-align: left;
     width: 67.1%;
     margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
+
+#sobre-receitas{
+    padding-right: 10px;
+}
+
+#titulo{
+    font-family: Cochin;
+    font-size: 24px;
+    color: #111111;
+    letter-spacing: 1.65px;
+}
+
 .elemento-header{
    margin: auto;
+   
 }
 
 .capa{
@@ -64,6 +79,11 @@ header{
     border-radius: 15px;
 }
 
+.receita:hover{
+    width: 32%;
+    transition: 200ms;
+}
+
 .nome-receita{
     font-family: Roboto-Regular;
     font-size: 18px;
@@ -99,4 +119,19 @@ footer >p{
     margin-top: 12px;
     margin-bottom: 0%;
     padding-top: 12px;
+}
+
+.section-in-sobre{
+    margin: auto;
+    width: 60.9%;
+    text-align: justify;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+a{
+    color: #444444;
+    text-decoration: none;
 }
